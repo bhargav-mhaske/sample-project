@@ -1,0 +1,688 @@
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 1.15;
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-control{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn {
+    font-weight: 600;
+}
+.headtxt {
+    margin-bottom: 12px;
+    color: #6941C6;
+    font-weight: 600;
+}
+.headtxt2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.subtxt {
+    font-weight: 400;
+    font-size: 20px;
+    color: #475467;
+    line-height: 30px;
+}
+h6 {
+    color: #101828;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.paratxt {
+    color: #475467;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Navbar */
+
+#top_nav {
+    padding: 0 100px;
+    height: 80px;
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 32px;
+    padding-right: 0px;
+}
+.dropdown-toggle::after {
+    /* hide default dropdown icon */
+    display: none;
+}
+.dropdown-chevron {
+    margin-left: 0.3rem;
+}
+
+/* Badges */
+
+.headbadge {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+.badge-grp {
+    display: flex;
+    padding: 4px 10px 4px 4px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    background-color: rgba(249, 245, 255, 1);
+    font-size: 14px;
+}
+.badge1 {
+    display: flex;
+    padding: 2px 10px;
+    position: relative;
+    box-sizing: content-box;
+    align-items: center;
+    margin-right: 12px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.badgetxt1 {
+    color: #6941C6;
+    height: auto;
+    align-self: auto;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+.badge2 {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.badgetxt2 {
+    color: #6941C6;
+    height: auto;
+    align-self: auto;
+    text-align: left;
+    line-height: 20px;
+    margin-right: 4px;
+    margin-bottom: 0;
+}
+
+/* Hero Section */
+
+#bannertxt {
+    padding: 128px 0 96px 60px;
+}
+#bannertxt h1 {
+    width: 544px;
+    height: 144px;
+    color: #101828;
+    font-weight: 600;
+    font-size: 60px;
+}
+#bannertxt p {
+    color: #475467;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+#bannerimg {
+    padding-right: 0;
+}
+
+/* button */
+
+#talkbtn {
+    background: #7F56D9;
+    width: auto;
+    height: auto;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    gap: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#talkbtn:hover {
+    background-color: #53389E;
+}
+#loginbtn {
+    border-radius: 8px;
+    width: 83px;
+    height: 44px;
+    margin-right: 10px;
+    color: #475467;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#loginbtn:hover {
+    background-color: #afafaf;
+}
+#signbtn {
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#signbtn:hover {
+    background-color: #53389E;
+}
+
+/* Social section */
+
+.socialcontainer {
+    width: 100%;
+    height: 430px;
+    display: flex;
+    padding: 96px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    top: 800px;
+}
+.socialcontn {
+    padding: 64px;
+    align-self: stretch;
+    border-radius: 16px;
+    background-color: #53389E;
+}
+.socialtxt {
+    color: #E9D7FE;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.logos {
+    display: flex;
+    align-items: center;
+}
+.layers {
+    width: 11rem;
+    height: 3rem;
+    object-fit: cover;
+}
+.sisyphus {
+    width: 12rem;
+    height: 3rem;
+    object-fit: cover;
+}
+.circooles {
+    width: 13rem;
+    height: 3rem;
+    object-fit: cover;
+}
+.catalog {
+    width: 12rem;
+    height: 3rem;
+    object-fit: cover;
+}
+.quotient {
+    width: 13rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+/* Features section */
+
+.feathead{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.learn {
+    color: #6941C6;
+    font-weight: 600;
+    line-height: 24px;
+}
+.featureh1{
+    margin-bottom: 4rem;
+}
+.Line{
+    padding-top: 1rem
+}
+.featuretxt{
+    padding-right: 2rem;
+}
+.fticon{
+    vertical-align: top;
+}
+/* Matrics */
+
+.matrics{
+    background: #53389E; 
+    padding: 6rem 0;
+}
+.mtctop{
+    margin-bottom: 4rem;
+}
+.mtctop h2{
+    margin-bottom: 20px; 
+    font-weight: 600; 
+    font-size: 36px; 
+    color: white; 
+    line-height: 44px;
+}
+.h2white {
+    color: #E9D7FE;
+    font-weight: 600;
+    line-height: 24px;
+}
+.pwhite {
+    color: #E9D7FE;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.mtcnum {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    align-self: stretch;
+}
+.mtchead {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    text-align: center;
+    align-self: stretch;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.mtcpara {
+    color: #E9D7FE;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-self: stretch;
+}
+/* Quotes */
+
+.quote {
+    color: #101828;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+.ypad{
+    padding: 6rem 0;
+}
+#avatar {
+    width: 88px;
+    height: 64px;
+}
+.name {
+    color: #101828;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.subname {
+    font-weight: 400;
+    line-height: 24px;
+    color: #475467;
+}
+
+/* CARDS */
+
+.card-group {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+.company-card {
+    width: 384px;
+    height: 504px;
+    display: flex;
+    padding: 24px;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin: 1rem;
+    flex-direction: column;
+    justify-content: flex-end;    
+}
+.cardbox {
+    width: 336px;
+    height: 258px;
+    display: flex;
+    padding: 32px 24px;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.cardtexts {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: transparent;
+    margin-bottom: 32px;
+    flex-direction: column;
+}
+.companyname {
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 16px;
+}
+.quotetxt {
+    color: #FFFFFF;
+    height: auto;
+    align-self: stretch;
+    text-align: left;
+    line-height: 28px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.card-button {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    border-color: transparent;
+    justify-content: center;
+    background-color: transparent;
+}
+.readcase {
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 24px;
+    margin-right: 8px;
+}
+.card-upright {
+    width: 8.33px;
+    height: 8.33px;
+    position: relative;
+}
+.card-logo {
+    top: 32px;
+    left: 32px;
+    width: 169px;
+    height: 48px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    align-items: flex-start;
+    border-color: transparent;
+}
+
+/* CTA */
+.cta{
+    font-weight: 600; 
+    font-size: 36px; 
+    color: white; 
+    line-height: 44px;}
+/* FOOTER */
+
+.text1{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;    
+}
+.foot{
+    margin: 4rem 0 3rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid #EAECF0;
+    align-items: center;
+}
+.foottext{
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    font-weight: 400;
+}
+.footsubtxt{
+    color: #475467; 
+    line-height: 24px;
+}
+.footerlogo{
+    padding-bottom: 2rem;
+}
+/* ------------------------------------------------------------------------------------- */
+/* Responsive */
+/* XL */
+@media screen and (min-width: 1660px) {
+    #bannertxt{
+        padding: 150px 0 96px 280px;
+    }
+}
+/* LG */
+@media screen and (max-width: 1024px) {
+    #bannerimg{
+        align-self: center;
+    }
+    #bannertxt{
+        padding: 1rem 0 1rem 3rem;
+    }
+    .socialcontn{
+        padding: 3rem;
+        border-radius: 24px;
+    }
+    .socialcontainer {
+        height: 24rem;
+    }
+    .featureh1{
+        margin-bottom: 2rem;
+    }
+    .Line{
+        display: none;
+    }
+    .matrics{
+        padding: 4rem 0;
+    }
+    .mtctop{
+        margin-bottom: 1rem;
+    }
+    .quote{
+        font-size: 34px;
+    }
+    .ypad{
+        padding: 3rem 0;
+    }
+    .foot {
+        margin: 2rem 0 1rem 0;
+        padding-top: 1rem;
+    }
+    .form-control {
+        width: 50%;
+    }  
+}
+/* SM */
+@media only screen and (max-width: 768px) {
+    .badge1{
+        font-size: 9px;
+    }
+    .badge2{
+        font-size: 9px;
+    }
+    #talkbtn {
+        font-size: 12px;
+    }
+    #bannertxt h1{
+        font-size: 3rem;
+    }
+    #bannertxt p{
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    .headbadge{
+        margin-bottom: 0;
+    }
+    .socialcontainer {
+        height: 14rem;
+    }
+    .socialcontn{
+        padding: 2rem;
+    }
+    .socialtxt {
+        margin-bottom: 10px;
+    }
+    .feathead{
+        font-size: 36px;
+    }
+    .featureh1{
+        align-self: center;
+        margin-bottom: 0;
+    }
+    .subtxt{
+        font-size: 16px;
+    }
+    .featuretxt {
+        padding-right: 4rem;
+        width: auto;
+        height: auto;
+    }
+    .fticon {
+        padding: 1rem 0 0 2rem;
+    }
+    .sm-w50{
+        width: 50%;
+    }
+    .layers{
+        width: 7rem;
+        height: auto;
+    }
+    .sisyphus{
+        width: 7rem;
+        height: auto;
+    }
+    .circooles{
+        width: 7rem;
+        height: auto;
+    }
+    .catalog{
+        width: 7rem;
+        height: auto;
+    }
+    .quotient{
+        width: 7rem;
+        height: auto;
+    }
+    .cta{
+        font-size: 23px;
+    }
+    #ctaimg{
+        height: 140px;
+        width: 380px;
+    }
+    .sm-w37{
+        width: 37%;
+    }
+    .widthnone{
+        width: 0%;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .subscribe{
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+    .foottext{
+        font-size: 10px;
+    }
+    .foot {
+        margin: 1rem 0 0 0;
+        padding-top: 0;
+    }
+}
+/* Mobile Screen */
+@media screen and (max-width: 414px) {
+    
+    #bannertxt h1{
+        font-size: 2.5rem;
+    }
+    .badge-grp{
+        margin-top: 1rem;
+    }
+    .headbadge {
+        margin-bottom: -36px;
+    }
+    .feathead {
+        font-size: 28px;
+    }
+    .fticon {
+        padding: 0;
+    }
+    .iconleftpad{
+        padding-left: 0;
+    }
+    .mtctop h2{
+        margin-top: 10px; 
+        font-size: 28px; 
+    }
+    .mtctop p{
+        font-size: 16px;
+    }
+    .sm-w50 {
+        width: 90%;
+    }
+    .quote {
+        font-size: 27px;
+    }
+    .headtxt2 {
+        margin-bottom: 8px;
+        font-size: 23px;
+    }
+    #cardid{
+        display: none;
+    }
+    .cta {
+        font-size: 23px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .ypad {
+        padding: 2rem 0;
+    }
+    #footerfont{
+        font-size: 10px;
+    }
+    #footerfont p{
+        font-size: 10px;
+    }
+    .footerlogo {
+        height: 30%;
+    }
+    .form-control {
+        font-size: 10px;
+    }
+    .subscribe {
+        font-size: 10px;
+    }
+    .marright{
+        margin-right: 10px;
+    }
+    .foot {
+        margin: 0;
+        padding-top: 0;
+    }
+    .foottext{
+        font-size: 8px;
+    }
+}
